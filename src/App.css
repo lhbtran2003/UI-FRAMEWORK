@@ -18,10 +18,21 @@
   font-weight: weight;
   font-style: normal;
 }
-.title-hover:hover {
-  color: blue;
+
+.actived {
+  color: blue !important;
+  border-left: blue 5px solid !important;
+  border-radius: 0 !important;
   cursor: pointer;
+  background-color: white !important;
 }
+.unactive {
+  border-left: white 5px solid !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  background-color: white !important;
+}
+
 .id-checked:hover {
   cursor: pointer;
 }
