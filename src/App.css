@@ -1,0 +1,34 @@
+.children-font {
+  color: rgb(49, 49, 49);
+  font-size:14px;
+  letter-spacing: 0.8px;
+}
+.children-font-1 {
+  color: rgb(10, 69, 221);
+  font-size:14px;
+  letter-spacing: 0.8px;
+}
+.title-font {
+  color: black;
+  font-weight: bold;
+}
+.outfit-uniquifier {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.title-hover:hover {
+  color: blue;
+  cursor: pointer;
+}
+.id-checked:hover {
+  cursor: pointer;
+}
+.no-focus-outline:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: initial;
+}
+
+
