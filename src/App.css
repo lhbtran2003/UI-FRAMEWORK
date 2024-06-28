@@ -1,11 +1,11 @@
 .children-font {
   color: rgb(49, 49, 49);
-  font-size:14px;
+  font-size: 14px;
   letter-spacing: 0.8px;
 }
 .children-font-1 {
   color: rgb(10, 69, 221);
-  font-size:14px;
+  font-size: 14px;
   letter-spacing: 0.8px;
 }
 .title-font {
@@ -41,5 +41,21 @@
   box-shadow: none;
   border-color: initial;
 }
-
-
+.fixed-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  width: 16.666667%;
+}
+.main-content {
+  margin-left: 16.666667%;
+}
+.button-font-size {
+  font-size: 1px;
+  height: 2rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
